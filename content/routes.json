@@ -1,0 +1,31 @@
+{
+  "routes": {
+    "/": "index.html",
+    "/about": "about.html",
+    "/solutions": "solutions.html",
+    "/blogs": "blogs.html",
+    "/contact": "contact.html",
+    "/blogs/the-future-of-ai-automation-how-it-s-changing-business-operations": "blogs_the-future-of-ai-automation-how-it-s-changing-business-operations.html",
+    "/solutions/ori-check-—-cheque-truncation-system-(cts)": "solutions_ori-check-_-cheque-truncation-system-_cts.html",
+    "/solutions/o-recon-—-automated-bank-reconciliation-system": "solutions_o-recon-_-automated-bank-reconciliation-system.html",
+    "/solutions/auto-clear-—-national-automated-clearing-house-(nach)-software": "solutions_auto-clear-_-national-automated-clearing-house-_nach_-software.html",
+    "/solutions/ckycr-—-central-kyc-registry-solution": "solutions_ckycr-_-central-kyc-registry-solution.html",
+    "/solutions/pps-—-positive-pay-system": "solutions_pps-_-positive-pay-system.html",
+    "/solutions/frms-—-fraud-risk-management-system": "solutions_frms-_-fraud-risk-management-system.html",
+    "/solutions/i4c-integration-—-national-cybercrime-framework-connectivity": "solutions_i4c-integration-_-national-cybercrime-framework-connectivity.html",
+    "/solutions/mnrl-—-mobile-network-revocation-list": "solutions_mnrl-_-mobile-network-revocation-list.html",
+    "/solutions/ews-—-early-warning-system": "solutions_ews-_-early-warning-system.html",
+    "/solutions/atm-–-brown-label-atm-(bla)-services": "solutions_atm-_-brown-label-atm-_bla_-services.html",
+    "/solutions/recycler-—-cash-recycler-solutions": "solutions_recycler-_-cash-recycler-solutions.html",
+    "/solutions/cheque-book-printing-kiosk": "solutions_cheque-book-printing-kiosk.html",
+    "/solutions/passbook-printing-kiosk": "solutions_passbook-printing-kiosk.html",
+    "/solutions/kiosk-banking": "solutions_kiosk-banking.html",
+    "/solutions/internet-banking": "solutions_internet-banking.html",
+    "/solutions/mobile-banking": "solutions_mobile-banking.html",
+    "/solutions/oripay-—-fund-transfer-saas": "solutions_oripay-_-fund-transfer-saas.html",
+    "/solutions/core-banking-system": "solutions_core-banking-system.html",
+    "/solutions/network-infrastructure": "solutions_network-infrastructure.html",
+    "/solutions/cyber-security-—-iam-dpdp-micro-segmentation": "solutions_cyber-security-_-iam-dpdp-micro-segmentation.html"
+  },
+  "notFound": "_404.html"
+}

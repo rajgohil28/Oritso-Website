@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{description:`Xtract is a modern AI automation agency Framer template, perfect for AI startups and tech businesses. It’s sleek, responsive, SEO-friendly, and designed to showcase AI solutions with a clean layout, smooth animations, and a conversion-focused approach.`,robots:`max-image-preview:large`,title:`oritso`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.BVsynSGt.mjs.map

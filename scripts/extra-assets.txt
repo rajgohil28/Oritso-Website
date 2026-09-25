@@ -1,0 +1,10 @@
+# Assets the Framer runtime loads by a name computed at runtime, so the crawler cannot discover them
+# from the code. Each is an icon module requested as `${base}${iconName}.js@<version>`.
+# Derived from every Phosphor/Feather icon instance in the site's components (iconSearch/iconSelection).
+https://framer.com/m/phosphor-icons/ArrowLeft.js@0.0.57
+https://framer.com/m/phosphor-icons/CaretLeft.js@0.0.57
+https://framer.com/m/phosphor-icons/House.js@0.0.57
+https://framer.com/m/phosphor-icons/Sparkle.js@0.0.57
+https://framer.com/m/feather-icons/arrow-right.js@0.0.29
+https://framer.com/m/feather-icons/arrow-up-right.js@0.0.29
+https://framer.com/m/feather-icons/home.js@0.0.29
