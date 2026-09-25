@@ -4,5 +4,5 @@
  * Learn More: https://www.framer.com/asset-urls
  */
 
-export * from "/_fr/modules/v0XJQW79HlCddIsaYfd4/9xjeXGqCauKcyBKU8czm/CaretLeft.js"
-export { default } from "/_fr/modules/v0XJQW79HlCddIsaYfd4/9xjeXGqCauKcyBKU8czm/CaretLeft.js"
+export * from "/Oritso-Website/_fr/modules/v0XJQW79HlCddIsaYfd4/9xjeXGqCauKcyBKU8czm/CaretLeft.js"
+export { default } from "/Oritso-Website/_fr/modules/v0XJQW79HlCddIsaYfd4/9xjeXGqCauKcyBKU8czm/CaretLeft.js"

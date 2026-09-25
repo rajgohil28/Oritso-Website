@@ -4,5 +4,5 @@
  * Learn More: https://www.framer.com/asset-urls
  */
 
-export * from "/_fr/modules/JHGgSWkfJo95JvR97fPJ/SVend41pDd3SKmdHyJLD/arrow-right.js"
-export { default } from "/_fr/modules/JHGgSWkfJo95JvR97fPJ/SVend41pDd3SKmdHyJLD/arrow-right.js"
+export * from "/Oritso-Website/_fr/modules/JHGgSWkfJo95JvR97fPJ/SVend41pDd3SKmdHyJLD/arrow-right.js"
+export { default } from "/Oritso-Website/_fr/modules/JHGgSWkfJo95JvR97fPJ/SVend41pDd3SKmdHyJLD/arrow-right.js"

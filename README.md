@@ -25,10 +25,17 @@ After changing the site in Framer: `npm run sync && npm run build:docs`, then co
 2. **Settings → Pages → Build and deployment → Deploy from a branch**, pick the branch and the **`/docs`** folder.
 3. Under **Custom domain**, enter the domain (e.g. `www.oritso.in`) and point its DNS at GitHub Pages.
 
-**The site must be served from the root of a domain**: a custom domain, or a repository named `<user>.github.io`.
-Framer's router and every asset path are root-relative, so the default project URL `https://<user>.github.io/<repo>/`
-shows a broken page. `docs/` deliberately has no `CNAME` file: adding one makes the github.io URL redirect to that
-domain, which still serves the old WordPress site until DNS is switched.
+**Base path.** `npm run build:docs` reads the GitHub remote and builds for where Pages will serve the site:
+`rajgohil28/Oritso-Website` → `https://rajgohil28.github.io/Oritso-Website/`, so every asset path gets the
+`/Oritso-Website` prefix and the router keeps it in the address bar. When you move to a custom domain (e.g.
+`www.oritso.in`), rebuild for the domain root:
+
+```bash
+npm run build:docs -- --base ""
+```
+
+`docs/` deliberately has no `CNAME` file: adding one makes the github.io URL redirect to that domain, which still
+serves the old WordPress site until DNS is switched. Add the custom domain in the Pages settings when DNS is ready.
 
 `docs/.nojekyll` must stay: without it GitHub runs Jekyll, which drops the `_fr`, `_gs` and `_fm` asset folders.
 
