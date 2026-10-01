@@ -7,10 +7,14 @@
  * Layout follows GitHub Pages' URL resolution:
  *   /                      -> docs/index.html
  *   /about                 -> docs/about.html          (Pages serves "<path>.html" for extensionless URLs)
- *   /solutions/<slug>      -> docs/solutions/<slug>.html
+ *   /solutions/<slug>      -> docs/solutions/<slug>.html   (legacy Framer slugs, from content/routes.json)
+ *   /solutions/<cms-slug>  -> docs/solutions/<cms-slug>.html (CMS-driven, from .next/server/app/solutions/*.html)
  *   unknown paths          -> docs/404.html            (served by Pages with status 404)
  *   /_fr, /_gs, /_fm, ...  -> copied from public/
+ *   /_next/static/...      -> copied from .next/static/ (hydrates app/solutions/[slug]'s runtime bits)
  *   docs/.nojekyll         -> stops Jekyll from dropping the "_"-prefixed asset folders
+ *
+ * Requires `next build` to have already run (produces .next/server/app/solutions/*.html + .next/static/).
  *
  * Base path: a GitHub project site lives under /<repo>/ (e.g. rajgohil28.github.io/Oritso-Website/), while a custom
  * domain or a <user>.github.io repository serves from /. The base is detected from the "origin" remote; override it:
@@ -51,18 +55,46 @@ if (BASE && !/^\/[A-Za-z0-9._-]+$/.test(BASE)) fail(`invalid base path "${BASE}"
 const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\/-]/g, "\\$&");
 
 const registry = JSON.parse(fs.readFileSync(path.join(CONTENT, "routes.json"), "utf8"));
+const NEXT_APP = path.join(ROOT, ".next/server/app");
+const NEXT_STATIC = path.join(ROOT, ".next/static");
+if (!fs.existsSync(NEXT_APP)) fail(`${path.relative(ROOT, NEXT_APP)} not found — run "next build" first`);
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.cpSync(PUBLIC, OUT, { recursive: true });
 
-const written = [];
+// CMS-driven pages (app/solutions/[slug]/page.tsx), prerendered by `next build` into .next/server/app/solutions/*.html.
+const cmsSolutionsDir = path.join(NEXT_APP, "solutions");
+const cmsSlugFiles = fs.existsSync(cmsSolutionsDir)
+  ? fs.readdirSync(cmsSolutionsDir).filter((f) => f.endsWith(".html"))
+  : [];
+if (!cmsSlugFiles.length) fail(`no prerendered pages found in ${path.relative(ROOT, cmsSolutionsDir)} — run "next build" first`);
+// A solution whose title had no special characters ends up with the same slug before and after the CMS
+// migration (e.g. "cheque-book-printing-kiosk"); the CMS page is authoritative there, so it wins the collision.
+const cmsSlugs = new Set(cmsSlugFiles.map((f) => f.slice(0, -".html".length)));
+
+// Raw HTML pages mirrored from Framer (content/pages/, via routes.json) — these carry the URL shim +
+// history patch (see BASE handling below). CMS-driven pages are plain server-rendered React with no
+// client router/runtime script of their own, so they only need asset-path prefixing.
+const legacyWritten = [];
 for (const [route, file] of Object.entries(registry.routes)) {
+  if (route.startsWith("/solutions/") && cmsSlugs.has(decodeURIComponent(route.slice("/solutions/".length)))) continue;
   const target = route === "/" ? path.join(OUT, "index.html") : path.join(OUT, route.slice(1) + ".html");
   if (fs.existsSync(target)) fail(`${path.relative(ROOT, target)} would be overwritten (route ${route})`);
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(path.join(CONTENT, "pages", file), target);
-  written.push(target);
+  legacyWritten.push(target);
 }
+
+const cmsWritten = [];
+for (const file of cmsSlugFiles) {
+  const target = path.join(OUT, "solutions", file);
+  if (fs.existsSync(target)) fail(`${path.relative(ROOT, target)} would be overwritten by a CMS-driven page`);
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.copyFileSync(path.join(cmsSolutionsDir, file), target);
+  cmsWritten.push(target);
+}
+fs.cpSync(NEXT_STATIC, path.join(OUT, "_next/static"), { recursive: true });
+const written = [...legacyWritten, ...cmsWritten];
 // Framer answers "/about/" with a 308 to "/about". GitHub Pages can't redirect and serves 404.html instead, so the
 // 404 page performs the same redirect client-side for known pages. Unknown paths still get the 404 page.
 const CHARSET = '<meta charset="utf-8" />';
@@ -88,8 +120,9 @@ if (BASE) {
     }
   };
   collect(OUT);
-  // 1. self-hosted asset paths: "/_fr/…" -> "<base>/_fr/…" (the lookbehind keeps this idempotent)
-  const ASSET = /(?<![\w.-])\/_(fr|gs|fm)(?=[/"'`])/g;
+  // 1. self-hosted asset paths: "/_fr/…" -> "<base>/_fr/…" (the lookbehind keeps this idempotent).
+  //    "_next" covers app/solutions/[slug]'s own JS/CSS chunks (.next/static, copied above).
+  const ASSET = /(?<![\w.-])\/_(fr|gs|fm|next)(?=[/"'`])/g;
   // 2. the URL shim must recognise the prefixed paths
   const SHIM_FROM = "r=/^\\/_(fr|gs)\\//";
   const SHIM_TO = `r=/^${escRe(BASE)}\\/_(fr|gs)\\//`;
@@ -101,12 +134,13 @@ if (BASE) {
     `for(const k of["pushState","replaceState"]){const o=H[k];H[k]=function(s,t,u){if(u!=null)try{const x=new URL(u,location.href);` +
     `if(x.origin===location.origin&&x.pathname!==B&&x.pathname.indexOf(B+"/")!==0){x.pathname=B+x.pathname;u=x.href}}catch(e){}` +
     `return o.call(this,s,t,u)}}})()</script>`;
+  const legacySet = new Set(legacyWritten);
   let pagesPatched = 0;
   for (const f of files) {
     let t = fs.readFileSync(f, "utf8");
     const before = t;
     t = t.replace(ASSET, `${BASE}/_$1`);
-    if (f.endsWith(".html") && f !== path.join(OUT, "404.html")) {
+    if (legacySet.has(f)) {
       if (t.split(SHIM_FROM).length !== 2) fail(`${path.relative(ROOT, f)}: URL shim not found exactly once`);
       t = t.replace(SHIM_FROM, () => SHIM_TO);
       t = t.replace("</script>", () => "</script>" + HISTORY_PATCH); // right after the shim, the first script
@@ -119,9 +153,9 @@ if (BASE) {
     }
     if (t !== before) fs.writeFileSync(f, t);
   }
-  if (pagesPatched !== written.length) fail(`patched ${pagesPatched} pages, expected ${written.length}`);
+  if (pagesPatched !== legacyWritten.length) fail(`patched ${pagesPatched} pages, expected ${legacyWritten.length}`);
   // nothing may still point at an unprefixed asset path
-  const leftovers = files.filter((f) => /(?<![\w.-])\/_(fr|gs|fm)(?=[/"'`])/.test(fs.readFileSync(f, "utf8").replaceAll(`${BASE}/_`, "")));
+  const leftovers = files.filter((f) => /(?<![\w.-])\/_(fr|gs|fm|next)(?=[/"'`])/.test(fs.readFileSync(f, "utf8").replaceAll(`${BASE}/_`, "")));
   if (leftovers.length) fail("unprefixed asset paths remain in:\n  " + leftovers.map((f) => path.relative(ROOT, f)).join("\n  "));
 }
 
@@ -129,7 +163,7 @@ if (BASE) {
 const missing = new Set();
 for (const page of [...written, path.join(OUT, "404.html")]) {
   const html = fs.readFileSync(page, "utf8");
-  for (const m of html.matchAll(/\/_(fr|gs|fm)\/[A-Za-z0-9_\-./%@~+=]+/g)) {
+  for (const m of html.matchAll(/\/_(fr|gs|fm|next)\/[A-Za-z0-9_\-./%@~+=]+/g)) {
     // (with a base, m[0] is the part after it: "<base>/_fr/x" contains "/_fr/x")
     const rel = decodeURIComponent(m[0].split(/[?#]/)[0].replace(/[.,;]+$/, ""));
     if (!rel.endsWith("/") && !fs.existsSync(path.join(OUT, rel))) missing.add(rel);

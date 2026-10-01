@@ -1,0 +1,63 @@
+# Self-hosted stack: Next.js site + Strapi CMS + a Caddy reverse proxy that gives each its own
+# public domain with automatic TLS. Copy .env.example to .env, fill it in, then:
+#
+#   docker compose up -d --build
+#
+# First run: create a Strapi admin account at https://<CMS_DOMAIN>/admin, enable public
+# find/findOne on the Solution content type (Settings -> Users & Permissions -> Roles -> Public),
+# then run cms/seed-strapi.mjs against https://<CMS_DOMAIN> to load the 20 solutions.
+
+services:
+  strapi:
+    build: ./cms/app
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      APP_KEYS: ${STRAPI_APP_KEYS}
+      API_TOKEN_SALT: ${STRAPI_API_TOKEN_SALT}
+      ADMIN_JWT_SECRET: ${STRAPI_ADMIN_JWT_SECRET}
+      JWT_SECRET: ${STRAPI_JWT_SECRET}
+      TRANSFER_TOKEN_SALT: ${STRAPI_TRANSFER_TOKEN_SALT}
+      ENCRYPTION_KEY: ${STRAPI_ENCRYPTION_KEY}
+      URL: https://${CMS_DOMAIN}
+    volumes:
+      - strapi-data:/opt/app/.tmp
+      - strapi-uploads:/opt/app/public/uploads
+    expose:
+      - "1337"
+
+  web:
+    build:
+      context: .
+      args:
+        # Strapi's public URL, not the internal "strapi:1337" hostname: this also becomes the
+        # <img> src for hero/feature images, which visitors' browsers load directly.
+        STRAPI_URL: https://${CMS_DOMAIN}
+    restart: unless-stopped
+    environment:
+      STRAPI_URL: https://${CMS_DOMAIN}
+    depends_on:
+      - strapi
+    expose:
+      - "3000"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN}
+      CMS_DOMAIN: ${CMS_DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    depends_on:
+      - web
+      - strapi
+
+volumes:
+  strapi-data:
+  strapi-uploads:
+  caddy-data:

@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solutions",
+  "info": {
+    "singularName": "solution",
+    "pluralName": "solutions",
+    "displayName": "Solution",
+    "description": "One product page under /solutions/<slug> (SaaS, PaaS, IaaS, System Integrator)."
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "legacySlug": {
+      "type": "string",
+      "unique": true,
+      "description": "Original Framer slug (e.g. \"mnrl-—-mobile-network-revocation-list\"), kept so old links can 301 to the new slug."
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["SaaS", "PaaS", "IaaS", "SI"],
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Sort position within its category on the Solutions listing page."
+    },
+    "tagline": {
+      "type": "string",
+      "maxLength": 140,
+      "description": "Short hero line under the title, e.g. \"Revoke. Block. Protect. In Real Time.\""
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "required": true
+    },
+    "whatIs": {
+      "type": "text",
+      "required": true,
+      "description": "Body of the \"What is <title>?\" section. Heading is templated in code, not stored."
+    },
+    "whyMatters": {
+      "type": "text",
+      "required": true,
+      "description": "Body of the \"Why Does It Matter?\" section."
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "solution.feature"
+    },
+    "bestSuitedFor": {
+      "type": "text",
+      "description": "Body of the \"Best Suited For:\" section."
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   turbopack: { root: import.meta.dirname },
   poweredByHeader: false,
   trailingSlash: false,
+  // Self-hosted as a Docker image (see Dockerfile) rather than a static export: a standalone
+  // server.js bundles only the node_modules the app actually needs.
+  output: "standalone",
   // The page route reads documents from content/ at request time (for the 404 page), so ship them with the server.
   outputFileTracingIncludes: { "/**": ["./content/**/*"] },
   async headers() {

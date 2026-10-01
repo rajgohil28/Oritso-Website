@@ -1,0 +1,11 @@
+# Reverse proxy for the self-hosted stack: routes the site and the Strapi admin/API under
+# their own domains, and gets TLS certificates automatically (Let's Encrypt) once DNS points
+# both domains at this server. Set SITE_DOMAIN / CMS_DOMAIN in .env before `docker compose up`.
+
+{$SITE_DOMAIN} {
+	reverse_proxy web:3000
+}
+
+{$CMS_DOMAIN} {
+	reverse_proxy strapi:1337
+}

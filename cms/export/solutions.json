@@ -1,0 +1,862 @@
+[
+  {
+    "legacySlug": "atm-_-brown-label-atm-_bla_-services",
+    "slug": "atm-brown-label-atm-bla-services",
+    "title": "ATM: Brown Label ATM (BLA) Services",
+    "category": "IaaS",
+    "order": 1,
+    "tagline": "Expand Your ATM Network. Without the Investment.",
+    "whatIs": "ORITSO's Brown Label ATM (BLA) service allows banks to expand their ATM footprint without owning, deploying, or maintaining the machines themselves. Under ORITSO's BLA model, ORITSO owns and operates the ATM hardware and takes responsibility for all technology, maintenance, and compliance — while the bank retains full branding rights and earns revenue from transactions. The bank bears no capital expenditure (CapEx) — it operates entirely on an operational expenditure (OpEx) model.",
+    "whyMatters": "For cooperative banks and smaller financial institutions, deploying a dedicated ATM network is expensive and operationally complex. The Brown Label ATM model removes all of these barriers — giving the bank's customers 24×7 cash access under the bank's own brand, without any infrastructure investment from the bank.",
+    "features": [
+      {
+        "title": "Zero Bank Investment (OpEx Model)",
+        "icon": "atm-brown-label-atm-bla-services__zero-bank-investment-opex-model.svg"
+      },
+      {
+        "title": "NPCI/RBI Compliance",
+        "icon": "atm-brown-label-atm-bla-services__npci-rbi-compliance.svg"
+      },
+      {
+        "title": "Bank's Own Branding",
+        "icon": "atm-brown-label-atm-bla-services__bank-s-own-branding.svg"
+      },
+      {
+        "title": "Revenue Earning",
+        "icon": "atm-brown-label-atm-bla-services__revenue-earning.svg"
+      },
+      {
+        "title": "Latest ATM Technology",
+        "icon": "atm-brown-label-atm-bla-services__latest-atm-technology.svg"
+      },
+      {
+        "title": "Faster Deployment",
+        "icon": "atm-brown-label-atm-bla-services__faster-deployment.svg"
+      },
+      {
+        "title": "24×7 Cash & Machine Management",
+        "icon": "atm-brown-label-atm-bla-services__24-7-cash-machine-management.svg"
+      },
+      {
+        "title": "Best-in-Class Service Partners",
+        "icon": "atm-brown-label-atm-bla-services__best-in-class-service-partners.svg"
+      }
+    ],
+    "bestSuitedFor": "Cooperative banks, urban co-operative banks, regional rural banks, and smaller scheduled commercial banks are looking to offer 24×7 ATM services to customers without capital investment.",
+    "heroImage": "/_fr/images/NhjMNZK5mMVGt0uPB7GxWYXRUo.jpg"
+  },
+  {
+    "legacySlug": "auto-clear-_-national-automated-clearing-house-_nach_-software",
+    "slug": "auto-clear-national-automated-clearing-house-nach-software",
+    "title": "AUTO-CLEAR National Automated Clearing House (NACH) Software",
+    "category": "SaaS",
+    "order": 1,
+    "tagline": "Automate Recurring Payments. Effortlessly and Securely.",
+    "whatIs": "AUTO-CLEAR is ORITSO's automated clearing and payment solution — a secure, scalable platform that enables organisations to manage bulk, recurring electronic payment collections and disbursements. Whether it is fee collections, subscription payments, salary processing, vendor payments, or utility billing, AUTO-CLEAR handles it all in an automated, reliable, and compliant manner",
+    "whyMatters": "Organisations across industries — Bank Cooperatives, Payment aggregators, Insurance companies, Telecom, Retail organisations, Financial institutions, Hospitals, Educational institutions, and any organisation — deal with large volumes of recurring payments every month. Managing these manually leads to delays, missed payments, reconciliation errors, and increased operational costs. AUTO-CLEAR eliminates all of these challenges by automating the entire payment workflow end-to-end.",
+    "features": [
+      {
+        "title": "Safe & Secure Architecture",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__safe-secure-architecture.svg"
+      },
+      {
+        "title": "Plug & Play",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__plug-play.svg"
+      },
+      {
+        "title": "Flexible Hosting Options",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__flexible-hosting-options.svg"
+      },
+      {
+        "title": "Cost Efficient",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__cost-efficient.svg"
+      },
+      {
+        "title": "Wide Integration Capability",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__wide-integration-capability.svg"
+      },
+      {
+        "title": "24×7 Dedicated Support",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__24-7-dedicated-support.svg"
+      },
+      {
+        "title": "Faster Implementation",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__faster-implementation.svg"
+      },
+      {
+        "title": "Always Up to Date",
+        "icon": "auto-clear-national-automated-clearing-house-nach-software__always-up-to-date.svg"
+      }
+    ],
+    "bestSuitedFor": "Bank Cooperatives, Payment aggregators, Insurance companies, Telecom, Retail organisations, Financial institutions, Hospitals, Educational institutions, and any organisation that processes recurring bulk payments or collections and wants to automate the process reliably.",
+    "heroImage": "/_fr/images/g7JyIcOYHaAp3HNdKzyYA1wj30s.jpeg"
+  },
+  {
+    "legacySlug": "cheque-book-printing-kiosk",
+    "slug": "cheque-book-printing-kiosk",
+    "title": "Cheque Book Printing Kiosk",
+    "category": "IaaS",
+    "order": 2,
+    "tagline": "On-Demand Cheque Books. Zero Wait.",
+    "whatIs": "ORITSO's Cheque Book Printing Kiosk enables banks to issue personalised cheque books to customers on demand at the branch, instead of routing requests through a central printing facility and waiting days for delivery.",
+    "whyMatters": "Traditional cheque book issuance involves manual requests, central printing, and courier delivery — a process that can take several days and requires significant manual coordination. On-demand kiosk printing removes this delay entirely, issuing a ready-to-use cheque book within minutes of a customer's request.",
+    "features": [
+      {
+        "title": "On-Demand Cheque Book Printing",
+        "icon": "cheque-book-printing-kiosk__on-demand-cheque-book-printing.svg"
+      },
+      {
+        "title": "On-Demand Issuance",
+        "icon": "cheque-book-printing-kiosk__on-demand-issuance.svg"
+      },
+      {
+        "title": "Automated Personalisation",
+        "icon": "cheque-book-printing-kiosk__automated-personalisation.svg"
+      },
+      {
+        "title": "Reduced Manual Intervention",
+        "icon": "cheque-book-printing-kiosk__reduced-manual-intervention.svg"
+      },
+      {
+        "title": "Core Banking & Inventory Integration",
+        "icon": "cheque-book-printing-kiosk__core-banking-inventory-integration.svg"
+      },
+      {
+        "title": "Improved Customer Experience",
+        "icon": "cheque-book-printing-kiosk__improved-customer-experience.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and financial institutions seeking to eliminate cheque book delivery delays, reduce manual printing and dispatch overheads, and offer customers immediate, on-demand cheque book issuance at the branch.",
+    "heroImage": "/_fr/images/l3kF8GzcXwT9aHUp1OSQRBMdjhU.png"
+  },
+  {
+    "legacySlug": "ckycr-_-central-kyc-registry-solution",
+    "slug": "ckycr-central-kyc-registry-solution",
+    "title": "CKYCR: Central KYC Registry Solution",
+    "category": "SaaS",
+    "order": 2,
+    "tagline": "One KYC. Accepted Everywhere.",
+    "whatIs": "ORITSO’s CKYC solution—branded as CKYCR —seamlessly enables banks and financial institutions to digitally submit, retrieve, and manage customer records through CERSAI's ( centralized repository of customer KYC data .)",
+    "whyMatters": "Regulators have mandated CKYC compliance for all financial institutions in India. Without it, banks cannot onboard customers for accounts, loans, or investment products in compliance. ORITSO's CKYCR solution simplifies the entire process — from document capture at the branch to final upload to CERSAI.",
+    "features": [
+      {
+        "title": "Mobile-CKYCR (Android & iOS)",
+        "icon": "ckycr-central-kyc-registry-solution__mobile-ckycr-android-ios.svg"
+      },
+      {
+        "title": "Host-to-Host Integration with CERSAI",
+        "icon": "ckycr-central-kyc-registry-solution__host-to-host-integration-with-cersai.svg"
+      },
+      {
+        "title": "Smart Image Processing",
+        "icon": "ckycr-central-kyc-registry-solution__smart-image-processing.svg"
+      },
+      {
+        "title": "Auto Escalation & Dashboard",
+        "icon": "ckycr-central-kyc-registry-solution__auto-escalation-dashboard.svg"
+      },
+      {
+        "title": "Bulk Upload",
+        "icon": "ckycr-central-kyc-registry-solution__bulk-upload.svg"
+      },
+      {
+        "title": "Highly Configurable",
+        "icon": "ckycr-central-kyc-registry-solution__highly-configurable.svg"
+      },
+      {
+        "title": "Maker-Checker Workflow",
+        "icon": "ckycr-central-kyc-registry-solution__maker-checker-workflow.svg"
+      },
+      {
+        "title": "Gap Analysis Algorithm",
+        "icon": "ckycr-central-kyc-registry-solution__gap-analysis-algorithm.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks, NBFCs, insurance companies, and any regulated financial institutions are required to comply with CERSAI's CKYC mandate for customer onboarding.",
+    "heroImage": "/_fr/images/LdgL1Ib8C8toqx92FBJl34GJ7k.jpg"
+  },
+  {
+    "legacySlug": "core-banking-system",
+    "slug": "core-banking-system",
+    "title": "Core Banking System",
+    "category": "SI",
+    "order": 1,
+    "tagline": "The Foundation of Every Banking Operation.",
+    "whatIs": "As a System Integrator, ORITSO supports banks and financial institutions through the selection, implementation, integration, and ongoing support of their Core Banking System (CBS) — coordinating with CBS vendors, migrating data, integrating surrounding channels and applications, and managing testing and go-live so the institution's central banking platform runs reliably from day one.",
+    "whyMatters": "The Core Banking System is the backbone of a financial institution's operations, and every other channel and service — from Internet Banking to ATMs and kiosks — depends on it working correctly. A structured, well-integrated CBS implementation reduces operational risk and ensures every connected system functions as one.",
+    "features": [
+      {
+        "title": "Implementation & Deployment",
+        "icon": "core-banking-system__implementation-deployment.svg"
+      },
+      {
+        "title": "Data Migration",
+        "icon": "core-banking-system__data-migration.svg"
+      },
+      {
+        "title": "Channel & Application Integration",
+        "icon": "core-banking-system__channel-application-integration.svg"
+      },
+      {
+        "title": "Testing & Go-Live Support",
+        "icon": "core-banking-system__testing-go-live-support.svg"
+      },
+      {
+        "title": "Ongoing Support & Monitoring",
+        "icon": "core-banking-system__ongoing-support-monitoring.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and financial institutions implementing, migrating, or upgrading their Core Banking System, and needing a single accountable partner to coordinate the vendor, the data, and the surrounding technology landscape.",
+    "heroImage": "/_fr/images/9Vxidb1coI5UdfIfLrv1aug7mk.png"
+  },
+  {
+    "legacySlug": "cyber-security-_-iam-dpdp-micro-segmentation",
+    "slug": "cyber-security-iam-dpdp-micro-segmentation",
+    "title": "Cyber Security: IAM, DPDP & Micro-Segmentation",
+    "category": "SI",
+    "order": 2,
+    "tagline": "Protecting the Integrated Environment, End to End.",
+    "whatIs": "As part of its System Integration practice, ORITSO implements and manages cyber security measures across the technologies it integrates, including Identity and Access Management (IAM), compliance with the Digital Personal Data Protection (DPDP) Act, and micro-segmentation of network environments to contain and limit the impact of any security incident.",
+    "whyMatters": "Integrating multiple technologies, platforms, and partners widens an institution's overall attack surface. Security cannot be an afterthought bolted on after integration — it has to be designed into the environment from the start. ORITSO builds security into every integrated solution it delivers, helping institutions stay protected and compliant as their technology landscape grows more complex.",
+    "features": [
+      {
+        "title": "Identity & Access Management (IAM)",
+        "icon": "cyber-security-iam-dpdp-micro-segmentation__identity-access-management-iam.svg"
+      },
+      {
+        "title": "DPDP Act Compliance",
+        "icon": "cyber-security-iam-dpdp-micro-segmentation__dpdp-act-compliance.svg"
+      },
+      {
+        "title": "Micro-Segmentation",
+        "icon": "cyber-security-iam-dpdp-micro-segmentation__micro-segmentation.svg"
+      },
+      {
+        "title": "Security Built into Integration",
+        "icon": "cyber-security-iam-dpdp-micro-segmentation__security-built-into-integration.svg"
+      },
+      {
+        "title": "Ongoing Monitoring",
+        "icon": "cyber-security-iam-dpdp-micro-segmentation__ongoing-monitoring.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks, fintechs, and enterprise institutions that need identity and access management, DPDP compliance, and network segmentation built into their integrated technology environment as a single, coordinated security practice.",
+    "heroImage": "/_fr/images/uotyAVWZq3inba5TYwu6U2esxr8.png"
+  },
+  {
+    "legacySlug": "ews-_-early-warning-system",
+    "slug": "ews-early-warning-system",
+    "title": "EWS: Early Warning System",
+    "category": "SaaS",
+    "order": 3,
+    "tagline": "Catch Risk Early. Before It Becomes Loss.",
+    "whatIs": "ORITSO's EWS continuously monitors customer and transaction activity using configurable business rules and behavioural analytics, flagging early indicators of fraud, financial crime, and operational risk before they escalate.",
+    "whyMatters": "The earlier a risk is caught, the cheaper it is to contain. EWS shifts fraud management from reactive to proactive, turning anomalies into prioritised, actionable alerts before they escalate into financial loss or regulatory exposure.",
+    "features": [
+      {
+        "title": "Continuous Activity Monitoring",
+        "icon": "ews-early-warning-system__continuous-activity-monitoring.svg"
+      },
+      {
+        "title": "Automated Case Management",
+        "icon": "ews-early-warning-system__automated-case-management.svg"
+      },
+      {
+        "title": "Configurable Business Rules",
+        "icon": "ews-early-warning-system__configurable-business-rules.svg"
+      },
+      {
+        "title": "Broad System Integration",
+        "icon": "ews-early-warning-system__broad-system-integration.svg"
+      },
+      {
+        "title": "Proactive Alerts",
+        "icon": "ews-early-warning-system__proactive-alerts.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and NBFCs are required to maintain an Early Warning Signals framework under the RBI's fraud risk management directions, particularly for large credit exposures. Also suited for risk and compliance teams currently managing alerts manually across spreadsheets or disconnected systems, and institutions wanting to cut case investigation turnaround time through automated workflow and alert prioritisation.",
+    "heroImage": "/_fr/images/WLCaBJq8asSWURTtGuZKO9wDWvM.png"
+  },
+  {
+    "legacySlug": "frms-_-fraud-risk-management-system",
+    "slug": "frms-fraud-risk-management-system",
+    "title": "FRMS: Fraud Risk Management System",
+    "category": "SaaS",
+    "order": 4,
+    "tagline": "Detect Fraud. Score Risk. Act in Real Time.",
+    "whatIs": "ORITSO's FRMS is an AI/ML-powered fraud detection platform that identifies, scores, and stops fraudulent activity in real time. Using intelligent risk scoring, customer profiling, and a configurable rule engine, it enables institutions to detect threats faster and intervene before any loss occurs.",
+    "whyMatters": "Fraud today moves at the speed of digital transactions — institutions need detection and response that move just as fast. FRMS replaces reactive, siloed fraud checks with a connected, intelligent system that catches threats before funds leave the institution, reducing losses while keeping pace with regulatory expectations.",
+    "features": [
+      {
+        "title": "AI/ML-Powered Detection",
+        "icon": "frms-fraud-risk-management-system__ai-ml-powered-detection.svg"
+      },
+      {
+        "title": "Seamless System Integration",
+        "icon": "frms-fraud-risk-management-system__seamless-system-integration.svg"
+      },
+      {
+        "title": "Configurable Early Warning Signals",
+        "icon": "frms-fraud-risk-management-system__configurable-early-warning-signals.svg"
+      },
+      {
+        "title": "Board-Ready Reporting",
+        "icon": "frms-fraud-risk-management-system__board-ready-reporting.svg"
+      },
+      {
+        "title": "Dynamic Rule Engine",
+        "icon": "frms-fraud-risk-management-system__dynamic-rule-engine.svg"
+      }
+    ],
+    "bestSuitedFor": "Public and private sector banks, cooperative banks, and NBFCs operating high-volume digital payment channels such as UPI, IMPS, and mobile banking, which need a single platform to replace fragmented, channel-specific fraud checks. Also suited for institutions preparing for RBI scrutiny on fraud risk management maturity ahead of audits or board reviews.",
+    "heroImage": "/_fr/images/Bzht7EJwVGNW2Izpao7T9lWNtlY.png"
+  },
+  {
+    "legacySlug": "i4c-integration-_-national-cybercrime-framework-connectivity",
+    "slug": "i4c-integration-national-cybercrime-framework-connectivity",
+    "title": "I4C Integration: National Cybercrime Framework Connectivity",
+    "category": "SaaS",
+    "order": 5,
+    "tagline": "From Detection to Enforcement. Seamlessly Connected.",
+    "whatIs": "ORITSO's I4C Integration connects institutions directly to the Indian Cybercrime Coordination Centre (I4C) and the Citizen Financial Cyber Fraud Reporting and Management System (CFCFRMS). This enables real-time cross-verification against the National Suspect Registry and coordinated action on suspected fraud — without manual back-and-forth.",
+    "whyMatters": "Fraud detection alone isn't enough if it can't translate into enforcement. This integration closes the gap between identifying a threat and acting on it within the national cybercrime framework, helping institutions freeze mule accounts, halt suspicious transactions, and remain aligned with PMLA guidelines without delays from manual coordination.",
+    "features": [
+      {
+        "title": "Real-Time I4C & CFCFRMS Integration",
+        "icon": "i4c-integration-national-cybercrime-framework-connectivity__real-time-i4c-cfcfrms-integration.svg"
+      },
+      {
+        "title": "Immediate Transaction Intervention",
+        "icon": "i4c-integration-national-cybercrime-framework-connectivity__immediate-transaction-intervention.svg"
+      },
+      {
+        "title": "National Suspect Registry Cross-Verification",
+        "icon": "i4c-integration-national-cybercrime-framework-connectivity__national-suspect-registry-cross-verification.svg"
+      },
+      {
+        "title": "PMLA Compliance Alignment",
+        "icon": "i4c-integration-national-cybercrime-framework-connectivity__pmla-compliance-alignment.svg"
+      },
+      {
+        "title": "Automatic Mule Account Flagging",
+        "icon": "i4c-integration-national-cybercrime-framework-connectivity__automatic-mule-account-flagging.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and NBFCs handling retail digital payments currently rely on manual coordination with law enforcement and the cybercrime helpline (1930) for fund-freeze requests. Also suited for institutions needing to demonstrate NSR cross-verification for RBI or PMLA compliance audits, and payment aggregators or PPIs exposed to mule-account-driven fraud at the onboarding or transaction stage.",
+    "heroImage": "/_fr/images/SvBmbYDZjbhom82dQ1Cd0dhhaoc.png"
+  },
+  {
+    "legacySlug": "internet-banking",
+    "slug": "internet-banking",
+    "title": "Internet Banking",
+    "category": "PaaS",
+    "order": 1,
+    "tagline": "Secure, Web-Based Banking. Built for Scale.",
+    "whatIs": "ORITSO's Internet Banking is a secure, scalable, and feature-rich digital banking solution that enables financial institutions to deliver seamless banking services through a web-based platform. Designed to enhance customer convenience and operational efficiency, it provides secure access to account management, fund transfers, payments, and a wide range of banking services, backed by enterprise-grade security and seamless integration with core banking systems.",
+    "whyMatters": "As customers increasingly expect to manage their finances without visiting a branch, a reliable Internet Banking platform has become essential for every financial institution. It reduces branch workload, improves customer satisfaction, and enables institutions, including cooperatives and smaller banks, to compete with larger players on digital convenience.",
+    "features": [
+      {
+        "title": "Real-Time Account Summary",
+        "icon": "internet-banking__real-time-account-summary.svg"
+      },
+      {
+        "title": "Service Requests & Profile Management",
+        "icon": "internet-banking__service-requests-profile-management.svg"
+      },
+      {
+        "title": "Comprehensive Fund Transfers",
+        "icon": "internet-banking__comprehensive-fund-transfers.svg"
+      },
+      {
+        "title": "Multi-Factor Authentication & RBAC",
+        "icon": "internet-banking__multi-factor-authentication-rbac.svg"
+      },
+      {
+        "title": "Beneficiary Management",
+        "icon": "internet-banking__beneficiary-management.svg"
+      },
+      {
+        "title": "Alerts & Notifications",
+        "icon": "internet-banking__alerts-notifications.svg"
+      },
+      {
+        "title": "FD & RD Management",
+        "icon": "internet-banking__fd-rd-management.svg"
+      },
+      {
+        "title": "Corporate Banking with Maker-Checker",
+        "icon": "internet-banking__corporate-banking-with-maker-checker.svg"
+      },
+      {
+        "title": "Loan & EMI Management",
+        "icon": "internet-banking__loan-emi-management.svg"
+      },
+      {
+        "title": "Core Banking Integration",
+        "icon": "internet-banking__core-banking-integration.svg"
+      },
+      {
+        "title": "Cheque Services",
+        "icon": "internet-banking__cheque-services.svg"
+      },
+      {
+        "title": "Advanced Security & Fraud Monitoring",
+        "icon": "internet-banking__advanced-security-fraud-monitoring.svg"
+      },
+      {
+        "title": "Statements & E-Statements",
+        "icon": "internet-banking__statements-e-statements.svg"
+      }
+    ],
+    "bestSuitedFor": "International Banking Systems, Nationalised Banks, State Cooperative Banks, Private sector banks, Urban co-operative banks, District Central Cooperative Banks (DCCBs), and any institution seeking a reliable Internet Banking platform.",
+    "heroImage": "/_fr/images/wjX3bwDIsBrbvB7BjumdcvESc.jpeg"
+  },
+  {
+    "legacySlug": "kiosk-banking",
+    "slug": "kiosk-banking",
+    "title": "Kiosk Banking",
+    "category": "IaaS",
+    "order": 3,
+    "tagline": "One Kiosk. Complete Self-Service Banking.",
+    "whatIs": "ORITSO's Kiosk Banking brings together self-service banking transactions, account services, printing services, and digital banking access in a single branch or self-service unit. Customers can check balances, print passbooks and mini-statements, request cheque books, and complete other everyday banking tasks without depending on a teller.",
+    "whyMatters": "Customers increasingly expect fast, self-directed access to routine banking services. Kiosk Banking consolidates multiple self-service capabilities into a single access point, reducing branch congestion and giving institutions a flexible, low-cost way to extend service hours and reach.",
+    "features": [
+      {
+        "title": "Self-Service Banking Transactions",
+        "icon": "kiosk-banking__self-service-banking-transactions.svg"
+      },
+      {
+        "title": "Account Services",
+        "icon": "kiosk-banking__account-services.svg"
+      },
+      {
+        "title": "Printing Services",
+        "icon": "kiosk-banking__printing-services.svg"
+      },
+      {
+        "title": "Digital Banking Access",
+        "icon": "kiosk-banking__digital-banking-access.svg"
+      },
+      {
+        "title": "Core Banking Integration",
+        "icon": "kiosk-banking__core-banking-integration.svg"
+      },
+      {
+        "title": "Flexible Deployment",
+        "icon": "kiosk-banking__flexible-deployment.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and financial institutions looking to consolidate self-service banking, account services, and printing capabilities into a single kiosk, reducing branch workload and improving customer convenience.",
+    "heroImage": "/_fr/images/d8rD7SRadRnAD9jCHoU9V5Yqs.png"
+  },
+  {
+    "legacySlug": "mnrl-_-mobile-network-revocation-list",
+    "slug": "mnrl-mobile-network-revocation-list",
+    "title": "MNRL — Mobile Network Revocation List",
+    "category": "SaaS",
+    "order": 6,
+    "tagline": "Revoke. Block. Protect. In Real Time.",
+    "whatIs": "ORITSO's MNRL is a network analytics and behavioural intelligence solution that detects compromised and revoked mobile network identities linked to organised fraud. It assigns dynamic risk scores to flag threats before they are exploited — looking beyond individual transactions to the mobile identity layer driving them.",
+    "whyMatters": "Fraudsters rarely operate through a single identity — they exploit SIM swaps, mobile number portability, and stolen device credentials designed to bypass security controls. MNRL surfaces these compromised mobile identities before they are exploited, giving institutions the ability to act on the network, not just the transaction, and significantly reduce losses tied to mobile identity-driven fraud.",
+    "features": [
+      {
+        "title": "Advanced Mobile Activity Detection",
+        "icon": "mnrl-mobile-network-revocation-list__advanced-mobile-activity-detection.svg"
+      },
+      {
+        "title": "Proactive Revocation & Restriction",
+        "icon": "mnrl-mobile-network-revocation-list__proactive-revocation-restriction.svg"
+      },
+      {
+        "title": "Relationship Correlation",
+        "icon": "mnrl-mobile-network-revocation-list__relationship-correlation.svg"
+      },
+      {
+        "title": "Enterprise Integration",
+        "icon": "mnrl-mobile-network-revocation-list__enterprise-integration.svg"
+      },
+      {
+        "title": "Dynamic Risk Scoring",
+        "icon": "mnrl-mobile-network-revocation-list__dynamic-risk-scoring.svg"
+      }
+    ],
+    "bestSuitedFor": "Retail and digital-first banks, payments banks, and UPI-heavy institutions seeing a rise in SIM swap fraud, mobile identity theft, and mule activity linked to compromised mobile numbers. Also suited for fraud investigation teams needing mobile-identity-relationship visibility across accounts, devices, and beneficiaries, and institutions strengthening AML typology coverage for mobile network-driven fraud rings.",
+    "heroImage": "/_fr/images/SIPRgDo1vz4ssCzAPbifrAxPGc0.png"
+  },
+  {
+    "legacySlug": "mobile-banking",
+    "slug": "mobile-banking",
+    "title": "Mobile Banking",
+    "category": "PaaS",
+    "order": 2,
+    "tagline": "Banking in Your Pocket. Anytime, Anywhere.",
+    "whatIs": "ORITSO's Mobile Banking is a next-generation digital banking application that empowers customers to access banking services anytime, anywhere through their smartphones. Built for speed, security, and ease of use, the solution offers a comprehensive mobile banking experience — including digital payments, account management, service requests, and real-time notifications — while ensuring the highest standards of security and performance.",
+    "whyMatters": "Mobile is now the primary channel through which customers interact with their bank. A fast, secure, and intuitive mobile banking app directly impacts customer satisfaction, retention, and digital adoption. ORITSO's solution allows financial institutions of any size to offer a modern, app-first banking experience to their customers.",
+    "features": [
+      {
+        "title": "Account Summary & Mini Statement",
+        "icon": "mobile-banking__account-summary-mini-statement.svg"
+      },
+      {
+        "title": "Push Notifications & Real-Time Alerts",
+        "icon": "mobile-banking__push-notifications-real-time-alerts.svg"
+      },
+      {
+        "title": "Instant Fund Transfers",
+        "icon": "mobile-banking__instant-fund-transfers.svg"
+      },
+      {
+        "title": "Secure Authentication",
+        "icon": "mobile-banking__secure-authentication.svg"
+      },
+      {
+        "title": "QR Code Payments",
+        "icon": "mobile-banking__qr-code-payments.svg"
+      },
+      {
+        "title": "In-App Customer Support",
+        "icon": "mobile-banking__in-app-customer-support.svg"
+      },
+      {
+        "title": "Debit Card Management",
+        "icon": "mobile-banking__debit-card-management.svg"
+      },
+      {
+        "title": "Personalised Dashboard",
+        "icon": "mobile-banking__personalised-dashboard.svg"
+      },
+      {
+        "title": "FD & Loan Management",
+        "icon": "mobile-banking__fd-loan-management.svg"
+      },
+      {
+        "title": "Digital Onboarding",
+        "icon": "mobile-banking__digital-onboarding.svg"
+      },
+      {
+        "title": "Cheque & Digital Service Requests",
+        "icon": "mobile-banking__cheque-digital-service-requests.svg"
+      },
+      {
+        "title": "End-to-End Encryption",
+        "icon": "mobile-banking__end-to-end-encryption.svg"
+      },
+      {
+        "title": "Biometric Login",
+        "icon": "mobile-banking__biometric-login.svg"
+      }
+    ],
+    "bestSuitedFor": "International Banking Systems, Nationalised Banks, State Cooperative Banks, Private sector banks, Urban co-operative banks, District Central Cooperative Banks (DCCBs), and any institution seeking a reliable Mobile Banking platform.",
+    "heroImage": "/_fr/images/JwyqEcJ3TJFcXPTLa6tWPXyYgo.jpeg"
+  },
+  {
+    "legacySlug": "network-infrastructure",
+    "slug": "network-infrastructure",
+    "title": "Network Infrastructure",
+    "category": "SI",
+    "order": 3,
+    "tagline": "The Backbone Behind Every Banking Channel.",
+    "whatIs": "ORITSO designs, deploys, and manages the network infrastructure that connects branches, ATMs, kiosks, data centres, and digital channels for banking and enterprise clients — coordinating with network and connectivity partners to build a secure, reliable foundation for every other system that depends on it.",
+    "whyMatters": "Every banking channel — from core banking to ATMs, recyclers, and digital platforms — depends on network connectivity that is secure, available, and performant. Gaps in network design or management can disrupt operations across an entire institution, making reliable network infrastructure a foundational part of any integrated technology environment.",
+    "features": [
+      {
+        "title": "Network Design & Deployment",
+        "icon": "network-infrastructure__network-design-deployment.svg"
+      },
+      {
+        "title": "Vendor & Partner Coordination",
+        "icon": "network-infrastructure__vendor-partner-coordination.svg"
+      },
+      {
+        "title": "High Availability",
+        "icon": "network-infrastructure__high-availability.svg"
+      },
+      {
+        "title": "Monitoring & Managed Services",
+        "icon": "network-infrastructure__monitoring-managed-services.svg"
+      },
+      {
+        "title": "Security-First Architecture",
+        "icon": "network-infrastructure__security-first-architecture.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks, financial institutions, and enterprise clients are building or upgrading the network infrastructure connecting their branches, data centres, self-service channels, and digital platforms.",
+    "heroImage": "/_fr/images/Oh049b2cqFjEFH7jpeXzE6OJao.png"
+  },
+  {
+    "legacySlug": "o-recon-_-automated-bank-reconciliation-system",
+    "slug": "o-recon-automated-bank-reconciliation-system",
+    "title": "O-RECON: Automated Bank Reconciliation System",
+    "category": "SaaS",
+    "order": 7,
+    "tagline": "Reconcile Every Transaction. Every Day. Automatically.",
+    "whatIs": "O-RECON is ORITSO's intelligent reconciliation platform that automates the matching of financial transactions across multiple payment and collection modes against an organisation's central management system. It eliminates the manual effort and end-of-month backlogs that finance and accounts teams across industries face every day.",
+    "whyMatters": "Organisations across sectors Bank Cooperatives, Payment aggregators, Insurance companies, Telecom, Retail organisations, Financial services companies, Hospitals, Educational institutions, and any organisation process large volumes of daily transactions through multiple channels. Matching these manually against records is time-consuming, error-prone, and often results in backlogs that disrupt reporting and audits. O-RECON solves this systematically, regardless of the industry or size of the organisation.",
+    "features": [
+      {
+        "title": "Technology Agnostic",
+        "icon": "o-recon-automated-bank-reconciliation-system__technology-agnostic.svg"
+      },
+      {
+        "title": "Plug & Play",
+        "icon": "o-recon-automated-bank-reconciliation-system__plug-play.svg"
+      },
+      {
+        "title": "Fully Automated Processing",
+        "icon": "o-recon-automated-bank-reconciliation-system__fully-automated-processing.svg"
+      },
+      {
+        "title": "Advanced Analytics",
+        "icon": "o-recon-automated-bank-reconciliation-system__advanced-analytics.svg"
+      },
+      {
+        "title": "Customisable Matching Rules",
+        "icon": "o-recon-automated-bank-reconciliation-system__customisable-matching-rules.svg"
+      },
+      {
+        "title": "Escalation Matrix",
+        "icon": "o-recon-automated-bank-reconciliation-system__escalation-matrix.svg"
+      },
+      {
+        "title": "Multiple Transaction Modes",
+        "icon": "o-recon-automated-bank-reconciliation-system__multiple-transaction-modes.svg"
+      },
+      {
+        "title": "Seamless CBS Interface",
+        "icon": "o-recon-automated-bank-reconciliation-system__seamless-cbs-interface.svg"
+      }
+    ],
+    "bestSuitedFor": "Bank Cooperatives, Payment aggregators, Insurance companies, Telecom, retail organisations, financial services companies, hospitals, educational institutions, and any organisation that processes high volumes of daily transactions and needs accurate, automated, and auditable reconciliation.",
+    "heroImage": "/_fr/images/rgdkFnXzgH8JBtEFFgvJ8zCI5Fg.jpeg"
+  },
+  {
+    "legacySlug": "ori-check-_-cheque-truncation-system-_cts",
+    "slug": "ori-check-cheque-truncation-system-cts",
+    "title": "ORI-CHECK: Cheque Truncation System (CTS)",
+    "category": "SaaS",
+    "order": 8,
+    "tagline": "Smarter Cheque Clearing. Zero Physical Movement.",
+    "whatIs": "ORI-CHECK is ORITSO's flagship Cheque Truncation System (CTS) — a comprehensive, end-to-end software solution that digitises the entire cheque clearing process for banks. Instead of physically transporting cheques between bank branches, ORI-CHECK captures cheque images electronically and processes them through NPCI's clearing network, saving time, courier costs, and operational effort.",
+    "whyMatters": "Cheque Truncation System (CTS) is a mandate by the Reserve Bank of India (RBI) and the National Payments Corporation of India (NPCI). Every bank must be CTS-compliant to participate in national cheque clearing. ORI-CHECK makes this compliance seamless.",
+    "features": [
+      {
+        "title": "RBI & NPCI Approved",
+        "icon": "ori-check-cheque-truncation-system-cts__rbi-npci-approved.svg"
+      },
+      {
+        "title": "Fast Go-Live",
+        "icon": "ori-check-cheque-truncation-system-cts__fast-go-live.svg"
+      },
+      {
+        "title": "Indigenous IQA Engine",
+        "icon": "ori-check-cheque-truncation-system-cts__indigenous-iqa-engine.svg"
+      },
+      {
+        "title": "Cost Savings",
+        "icon": "ori-check-cheque-truncation-system-cts__cost-savings.svg"
+      },
+      {
+        "title": "Versatile Deployment",
+        "icon": "ori-check-cheque-truncation-system-cts__versatile-deployment.svg"
+      },
+      {
+        "title": "Operational Excellence",
+        "icon": "ori-check-cheque-truncation-system-cts__operational-excellence.svg"
+      },
+      {
+        "title": "Home Clearing & Archival",
+        "icon": "ori-check-cheque-truncation-system-cts__home-clearing-archival.svg"
+      },
+      {
+        "title": "Expert Technical Support",
+        "icon": "ori-check-cheque-truncation-system-cts__expert-technical-support.svg"
+      },
+      {
+        "title": "Compatible with Small Scanners",
+        "icon": "ori-check-cheque-truncation-system-cts__compatible-with-small-scanners.svg"
+      },
+      {
+        "title": "Mobile Capture for Outward Clearing",
+        "icon": "ori-check-cheque-truncation-system-cts__mobile-capture-for-outward-clearing.svg"
+      }
+    ],
+    "bestSuitedFor": "International Banking Systems, Nationalised Banks, State Cooperative Banks, Private sector banks, Urban co-operative banks, District Central Cooperative Banks (DCCBs), and any institution seeking a reliable, RBI-compliant CTS platform.",
+    "heroImage": "/_fr/images/vD4IH6zSQJ2Tx2UQVSuU4CyI4k.jpeg"
+  },
+  {
+    "legacySlug": "oripay-_-fund-transfer-saas",
+    "slug": "oripay-fund-transfer-saas",
+    "title": "ORIPAY Fund Transfer SaaS",
+    "category": "PaaS",
+    "order": 3,
+    "tagline": "Catch Risk Early. Before It Becomes Loss.",
+    "whatIs": "ORIPAY is ORITSO's Fund Transfer SaaS, built to transform domestic money transfer services in India. Delivered as a user-friendly mobile application, ORIPAY integrates directly with a cooperative bank's Core Banking System, allowing account holders to transfer funds, pay bills, and access everyday financial services without visiting a branch or an ATM.",
+    "whyMatters": "A large underbanked population still depends on physical branch or ATM visits, followed by trips to local agents, just to transfer money or make a payment. This adds cost, delay, and inconvenience, and leaves customers vulnerable to migrating to neobanks and private banks that offer digital-first services. ORIPAY gives cooperative banks a ready, affordable way to offer their account holders a modern, app-based transfer experience — improving retention while adding genuine convenience to customers' lives.",
+    "features": [
+      {
+        "title": "Core Banking Integration",
+        "icon": "oripay-fund-transfer-saas__core-banking-integration.svg"
+      },
+      {
+        "title": "Real-Time Fund Transfer",
+        "icon": "oripay-fund-transfer-saas__real-time-fund-transfer.svg"
+      },
+      {
+        "title": "Settlement Bank Integration",
+        "icon": "oripay-fund-transfer-saas__settlement-bank-integration.svg"
+      },
+      {
+        "title": "Easy, User-Friendly Interface",
+        "icon": "oripay-fund-transfer-saas__easy-user-friendly-interface.svg"
+      },
+      {
+        "title": "Affordable, Transparent Pricing",
+        "icon": "oripay-fund-transfer-saas__affordable-transparent-pricing.svg"
+      },
+      {
+        "title": "Beyond Fund Transfer",
+        "icon": "oripay-fund-transfer-saas__beyond-fund-transfer.svg"
+      },
+      {
+        "title": "Bank-Promoted Adoption",
+        "icon": "oripay-fund-transfer-saas__bank-promoted-adoption.svg"
+      },
+      {
+        "title": "Built for the Underbanked",
+        "icon": "oripay-fund-transfer-saas__built-for-the-underbanked.svg"
+      }
+    ],
+    "bestSuitedFor": "Cooperative banks and small financial institutions looking to offer their account holders an affordable, app-based fund transfer experience, reduce dependence on branch and ATM visits for everyday transactions, and strengthen customer retention against neobanks and private sector competitors.",
+    "heroImage": "/_fr/images/yxpmfW7yM9D0SjCaohF5amak46c.png"
+  },
+  {
+    "legacySlug": "passbook-printing-kiosk",
+    "slug": "passbook-printing-kiosk",
+    "title": "Passbook Printing Kiosk",
+    "category": "IaaS",
+    "order": 4,
+    "tagline": "Self-Service Passbook Updates. Instantly.",
+    "whatIs": "ORITSO's Passbook Printing Kiosk allows customers to update and print their bank passbooks independently, without waiting at a teller counter. Customers simply insert their passbook, and the kiosk automatically prints all pending transaction entries in seconds.",
+    "whyMatters": "Passbook updates are among the most frequent, yet time-consuming, requests at branch counters. Self-service passbook kiosks eliminate queues for a routine task, freeing staff to handle more complex customer needs while giving customers a faster, more convenient way to keep their records current.",
+    "features": [
+      {
+        "title": "Self-Service Passbook Printing",
+        "icon": "passbook-printing-kiosk__self-service-passbook-printing.svg"
+      },
+      {
+        "title": "Fully Self-Service",
+        "icon": "passbook-printing-kiosk__fully-self-service.svg"
+      },
+      {
+        "title": "Core Banking Integration",
+        "icon": "passbook-printing-kiosk__core-banking-integration.svg"
+      },
+      {
+        "title": "Reduced Branch Workload",
+        "icon": "passbook-printing-kiosk__reduced-branch-workload.svg"
+      },
+      {
+        "title": "Faster Service Delivery",
+        "icon": "passbook-printing-kiosk__faster-service-delivery.svg"
+      },
+      {
+        "title": "Multi-Format Compatibility",
+        "icon": "passbook-printing-kiosk__multi-format-compatibility.svg"
+      }
+    ],
+    "bestSuitedFor": "High-footfall bank branches, cooperative banks, and public sector banks looking to reduce counter congestion and offer customers faster, self-service passbook updates.",
+    "heroImage": "/_fr/images/reMsOGrCTPUCkXYkS1QYBGhDjU.png"
+  },
+  {
+    "legacySlug": "pps-_-positive-pay-system",
+    "slug": "pps-positive-pay-system",
+    "title": "PPS: Positive Pay System",
+    "category": "SaaS",
+    "order": 9,
+    "tagline": "Protecting Every High-Value Cheque. Before It Is Processed.",
+    "whatIs": "PPS (Positive Pay System) is ORITSO's cheque security solution that enables account holders to pre-intimate their bank before issuing a high-value cheque. Before the cheque is presented for payment, the bank verifies the cheque details — such as date, amount, payee name, and cheque number — against the information submitted by the account holder. If there is any mismatch, the cheque is flagged and held for review. This significantly reduces the risk of cheque fraud and unauthorised alterations.",
+    "whyMatters": "Cheque fraud and tampering are growing concerns for banks and their customers. The Reserve Bank of India (RBI) has mandated the Positive Pay System for all cheques above a specified value to protect account holders from financial loss. ORITSO's PPS solution makes this process simple, fast, and fully compliant — for both the bank and its customers.",
+    "features": [
+      {
+        "title": "Pre-Intimation by Account Holder",
+        "icon": "pps-positive-pay-system__pre-intimation-by-account-holder.svg"
+      },
+      {
+        "title": "Multi-Channel Intimation",
+        "icon": "pps-positive-pay-system__multi-channel-intimation.svg"
+      },
+      {
+        "title": "Automated Matching & Verification",
+        "icon": "pps-positive-pay-system__automated-matching-verification.svg"
+      },
+      {
+        "title": "Integrated with ORI-CHECK CTS",
+        "icon": "pps-positive-pay-system__integrated-with-ori-check-cts.svg"
+      },
+      {
+        "title": "Fraud Prevention",
+        "icon": "pps-positive-pay-system__fraud-prevention.svg"
+      },
+      {
+        "title": "Real-Time Alerts",
+        "icon": "pps-positive-pay-system__real-time-alerts.svg"
+      },
+      {
+        "title": "RBI Mandate Compliant",
+        "icon": "pps-positive-pay-system__rbi-mandate-compliant.svg"
+      },
+      {
+        "title": "Complete Audit Trail",
+        "icon": "pps-positive-pay-system__complete-audit-trail.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and financial institutions that process high-value cheques need to comply with the RBI's Positive Pay System mandate while protecting their customers from cheque fraud.",
+    "heroImage": "/_fr/images/BgLJKPaQ3f7ZKYdC9YU9DbpS1No.png"
+  },
+  {
+    "legacySlug": "recycler-_-cash-recycler-solutions",
+    "slug": "recycler-cash-recycler-solutions",
+    "title": "Recycler: Cash Recycler Solutions",
+    "category": "IaaS",
+    "order": 5,
+    "tagline": "Smarter Csh Handling. Round-the-Clock Branch Automation.",
+    "whatIs": "ORITSO provides and integrates advanced Cash Recycler solutions for banking and self-service environments, drawing on proven, industry-leading hardware platforms. As a provider and System Integrator, ORITSO delivers, deploys, and supports cash recyclers that combine cash deposit and cash withdrawal in a single machine, automatically validating, sorting, and recirculating notes for reuse in subsequent withdrawals.",
+    "whyMatters": "Manual cash handling at branch counters is slow, resource-intensive, and prone to error. Cash recyclers automate deposit, validation, and dispensing in one device, reducing teller workload, improving cash security, and extending service availability beyond banking hours. For banks expanding branch automation, recyclers are a core building block of a modern, efficient branch.",
+    "features": [
+      {
+        "title": "Industry-Leading Hardware Integration",
+        "icon": "recycler-cash-recycler-solutions__industry-leading-hardware-integration.svg"
+      },
+      {
+        "title": "Combined Deposit & Withdrawal",
+        "icon": "recycler-cash-recycler-solutions__combined-deposit-withdrawal.svg"
+      },
+      {
+        "title": "Automated Note Recycling",
+        "icon": "recycler-cash-recycler-solutions__automated-note-recycling.svg"
+      },
+      {
+        "title": "Counterfeit & Fitness Sorting",
+        "icon": "recycler-cash-recycler-solutions__counterfeit-fitness-sorting.svg"
+      },
+      {
+        "title": "Branch Automation",
+        "icon": "recycler-cash-recycler-solutions__branch-automation.svg"
+      },
+      {
+        "title": "Real-Time Cash Position Visibility",
+        "icon": "recycler-cash-recycler-solutions__real-time-cash-position-visibility.svg"
+      },
+      {
+        "title": "Operational Efficiency",
+        "icon": "recycler-cash-recycler-solutions__operational-efficiency.svg"
+      },
+      {
+        "title": "End-to-End SI Support",
+        "icon": "recycler-cash-recycler-solutions__end-to-end-si-support.svg"
+      }
+    ],
+    "bestSuitedFor": "Banks and financial institutions are looking to automate branch cash operations, reduce teller-led cash handling costs, and extend round-the-clock deposit and withdrawal services to customers through a secure, self-service device.",
+    "heroImage": "/_fr/images/DjfKGEyzsjNXMuzUbWnQHWOPOw.png"
+  }
+]

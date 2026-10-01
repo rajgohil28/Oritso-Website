@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_solution_features",
+  "info": {
+    "displayName": "Feature",
+    "description": "One entry in a Solution's \"Key Features & Benefits\" grid. Title only — Framer's cards never carried a description, just an icon and a short title."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "required": true,
+      "description": "SVG icon (24x24). See cms/export/icons/ for every icon already used, exported from the live site."
+    }
+  }
+}

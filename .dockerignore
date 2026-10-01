@@ -1,0 +1,7 @@
+node_modules
+.next
+.git
+.framer-cache
+docs
+cms
+.env*.local
